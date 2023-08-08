@@ -80,11 +80,26 @@ const users=[
 }
 ]
 
-users[1].email
+// users[1].email
 
-console.log(tinderuser);
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
+// console.log(tinderuser);
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty('isLogged'));
+// console.log(tinderuser.hasOwnProperty('isLogged'));
+
+
+//objects and de-structure and jsons api intro
+
+const course={
+    coursename:"js ",
+    price:"999",
+    cs:"Rahul"
+}
+
+const {cs:instructor}=course
+console.log(instructor);
+
+
+
